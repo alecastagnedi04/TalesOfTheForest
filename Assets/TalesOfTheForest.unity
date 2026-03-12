@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 232175614}
   - component: {fileID: 232175613}
   - component: {fileID: 232175612}
+  - component: {fileID: 232175615}
   m_Layer: 0
   m_Name: sprite uccellino_0
   m_TagString: Untagged
@@ -233,6 +234,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &232175615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232175611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9351c32fc3bc6fe4bb4d61da420cf926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  reCapybara: {fileID: 1327897899}
+  distanzaAttivazione: 3
 --- !u!1 &480343232
 GameObject:
   m_ObjectHideFlags: 0
